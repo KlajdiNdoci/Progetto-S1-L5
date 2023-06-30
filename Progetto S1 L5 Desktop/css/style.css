@@ -130,7 +130,7 @@ aside {
   text-align: center;
 }
 
-aside div {
+.aside-boxes {
   margin-inline: 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -141,14 +141,18 @@ aside div {
   width: 400px;
 }
 
-aside p {
-  padding-inline: 35px;
+.aside-img {
+  object-fit: cover;
 }
 
-aside div img {
+aside img {
+  width: 400px;
+  height: 300px;
   object-fit: cover;
-  max-width: 100%;
-  max-height: 100%;
+}
+
+aside p {
+  padding-inline: 35px;
 }
 
 aside h3 {
