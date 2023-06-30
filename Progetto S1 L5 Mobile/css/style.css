@@ -1,0 +1,165 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  padding-inline: 35px;
+}
+
+/* HEADER */
+
+.logo-EPICODE {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: black;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  padding-bottom: 20px;
+  line-height: 1;
+  color: #25a2c3;
+}
+
+nav p {
+  padding-bottom: 30px;
+  font-size: large;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-inline: 17px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/* MAIN */
+
+article {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-inline: 35px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  padding-bottom: 20px;
+  line-height: 1;
+  color: #25a2c3;
+}
+
+article p {
+  line-height: 1.65;
+  padding-bottom: 30px;
+  font-size: large;
+}
+
+article img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.round-notebook {
+  text-align: center;
+}
+
+/* TESTIMONIANZE */
+
+section {
+  text-align: center;
+  color: white;
+  background-color: #e22d0e;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-inline: 35px;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+section p:nth-of-type(1) {
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: x-large;
+  color: white;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside div {
+  margin-inline: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: solid 1px #dee1e3;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+
+aside p {
+  padding-inline: 35px;
+}
+
+aside div img {
+  width: 100%;
+}
+
+aside h3 {
+  padding-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background-color: #25a2c3;
+  color: white;
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-inline: 35px;
+  padding-bottom: 70px;
+  line-height: 1.65;
+}
+
+footer a {
+  color: white;
+}
+
+footer :nth-of-type(3) {
+  padding-bottom: 30px;
+}
+
+footer :nth-of-type(4) {
+  text-align: center;
+  margin: auto;
+  border-top: solid 1px white;
+  width: 215px;
+  position: relative;
+  padding-top: 30px;
+}
